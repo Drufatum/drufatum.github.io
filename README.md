@@ -23,8 +23,7 @@
         let l=left.getBoundingClientRect();
         left.style.left=document.documentElement.clientWidth/2-l.width*3/2+"px";
         left.style.top=document.documentElement.clientHeight/2-l.height/2+"px";
-        let d=down.getBoundingClientRect();
-        
+        let d=down.getBoundingClientRect();        
         down.style.left=document.documentElement.clientWidth/2-d.width*5/2+"px";
         down.style.top=document.documentElement.clientHeight/2-d.height/2+"px";
         let y=document.documentElement.clientHeight-cp.height;
@@ -45,13 +44,11 @@
             y+=10;
             pp.style.top=y+"px";
         }
-        if(confirm("dipt")){
-            
+        if(confirm("dipt")){            
         localStorage.setItem("test",1);
         }
         else{
-        alert(localStorage.getItem("test"));
-            
+        alert(localStorage.getItem("test"));            
         }
     </script>
 </body>
