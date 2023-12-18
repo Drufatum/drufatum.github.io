@@ -46,10 +46,10 @@
             pp.style.top=y+"px";
         }
         if(confirm("dipt")){            
-        localStorage.setItem("test",1);
+            localStorage.setItem("test",localStorage.getItem("test")+1);
         }
         else{
-        alert(localStorage.getItem("test"));            
+            alert(localStorage.getItem("test"));            
         }
     </script>
 </body>
