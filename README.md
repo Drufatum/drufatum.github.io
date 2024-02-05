@@ -8,7 +8,7 @@
     <input id="right" style="position:fixed;font-size:30px;" onclick="rightf()" type="button" value=">">
     <input id="left" style="position:fixed;font-size:30px;" onclick="leftf()" type="button" value="<">
     <div id="pp" style="position:fixed;font-size:30px;">原神啟動</div>
-    <script>"use strict";
+    <script type="module">"use strict";
         setInterval(function(){},3000);
         let cp=pp.getBoundingClientRect();
         pp.style.left=0+"px";
