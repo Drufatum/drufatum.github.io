@@ -1,1 +1,1 @@
-export let x=9;
+export let ji=9;
