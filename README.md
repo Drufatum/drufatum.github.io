@@ -43,7 +43,7 @@
             y+=10;
             pp.style.top=y+"px";
         }
-        import {ji} from './read.md';
+        import ji from './read.md';
         if(confirm("dipt")){
             alert(ji);
             //localStorage.setItem("test",+localStorage.getItem("test")+1);
