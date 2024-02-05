@@ -43,14 +43,14 @@
             y+=10;
             pp.style.top=y+"px";
         }
-        import x from './read.md'
+        import {ji} from './read.md';
         if(confirm("dipt")){
-            alert(x);
+            alert(ji);
             //localStorage.setItem("test",+localStorage.getItem("test")+1);
             //alert(localStorage.getItem("test"));
         }
         else{
-            alert(x);
+            alert(ji);
             //alert(localStorage.getItem("test"));            
         }
     </script>
