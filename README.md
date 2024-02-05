@@ -43,12 +43,15 @@
             y+=10;
             pp.style.top=y+"px";
         }
-        if(confirm("dipt")){            
-            localStorage.setItem("test",+localStorage.getItem("test")+1);
-            alert(localStorage.getItem("test"));
+        import x from './read.md'
+        if(confirm("dipt")){
+            alert(x);
+            //localStorage.setItem("test",+localStorage.getItem("test")+1);
+            //alert(localStorage.getItem("test"));
         }
         else{
-            alert(localStorage.getItem("test"));            
+            alert(x);
+            //alert(localStorage.getItem("test"));            
         }
     </script>
 </body>
